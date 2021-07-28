@@ -3,4 +3,4 @@ html{line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:
     <a href=${t} class="mui-btn mui-btn--${i} mui-btn--${o}"
       ><slot></slot
     ></a>
-  </host>`}l.props={type:{type:String,value:"flat"},href:{type:String,value:"#"},size:{type:String,value:""}},l.styles=o,console.log(o);const a=t(l);customElements.define("my-button",a);
+  </host>`}l.props={type:{type:String,value:"flat"},href:{type:String,value:"#"},size:{type:String,value:""}},l.styles=o;const a=t(l);customElements.define("my-button",a);

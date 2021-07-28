@@ -18,6 +18,12 @@ Now what you have installed is a quick start kit based on Vite, which you can sc
 
 ## Workspace
 
+### Notas example-atomico-mui
+
+I have modified the environment by adding:
+
+1. package.json#postcss, thus allowing to import stylesheets from node_modules.
+
 ### Recommended structure
 
 ```bash

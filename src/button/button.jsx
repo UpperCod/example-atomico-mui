@@ -26,6 +26,4 @@ button.props = {
 
 button.styles = mui;
 
-console.log(mui);
-
 export const Button = c(button);
