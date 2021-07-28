@@ -1,0 +1,38 @@
+{
+  "name": "atomico-base",
+  "description": "a repo to start with atomico",
+  "meta": {
+    "title": "Started - Atomico + Vite",
+    "description": "Hassle-free starter template, perfect for starting with Atomico",
+    "branch": "https://github.com/atomicojs/atomico/tree/2-started/"
+  },
+  "workspaces": [
+    "src/**/*",
+    "site"
+  ],
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "test": "wtr src/**/*.test.js --node-resolve",
+    "exports": "exports src/components.js --exports --types --main components",
+    "prepublishOnly": "npm run test && npm run exports"
+  },
+  "dependencies": {
+    "atomico": "latest",
+    "muicss": "^0.10.3"
+  },
+  "devDependencies": {
+    "@uppercod/vite-meta-url": "latest",
+    "@uppercod/vite-meta-url-load-css": "latest",
+    "csso": "latest",
+    "postcss-import": "^14.0.2",
+    "vite": "latest"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-import": {}
+    }
+  }
+}
